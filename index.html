@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Expense Tracker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Personal Expense Tracker</h1>
+
+<form id="expense-form">
+<input id="expense-name" placeholder="Expense Name" required>
+<input id="expense-amount" type="number" placeholder="Amount" min="0.01" step="0.01" required>
+<input id="expense-date" type="date" required>
+
+<select id="expense-category" required>
+<option value="">Select Category</option>
+<option>Food</option>
+<option>Travel</option>
+<option>Shopping</option>
+<option>Other</option>
+</select>
+
+<button type="submit">Add Expense</button>
+</form>
+
+<h2>Total: ₹<span id="total">0.00</span></h2>
+
+<select id="filter-category">
+<option value="All">All Categories</option>
+<option>Food</option>
+<option>Travel</option>
+<option>Shopping</option>
+<option>Other</option>
+</select>
+ 
+<ul id="expense-list"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
