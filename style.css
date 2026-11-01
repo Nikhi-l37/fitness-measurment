@@ -1,0 +1,41 @@
+body {
+font-family: Arial, sans-serif; background-color: #f2f4f7; margin: 0;
+padding: 30px; text-align: center;
+}
+
+h1 {
+color: #2c3e50;
+}
+
+form {
+background-color: white; max-width: 500px; margin: 20px auto; padding: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 8px #cccccc;
+}
+
+input, select, button { padding: 10px; margin: 8px;
+border: 1px solid #cccccc; border-radius: 5px;
+}
+
+button {
+background-color: #2878d0; color: white;
+cursor: pointer;
+}
+ 
+button:hover {
+background-color: #155a9c;
+}
+
+#total {
+color: green;
+font-weight: bold;
+}
+
+#expense-list {
+max-width: 500px; margin: 20px auto; padding: 0;
+list-style: none;
+}
+
+#expense-list li { background-color: white; margin: 10px 0;
+padding: 12px; border-radius: 5px;
+}
